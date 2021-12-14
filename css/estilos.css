@@ -14,8 +14,7 @@
 	"nav" 
 	"futtot"
 	"futmas"
-	"futfem"
-	"footer";
+	"futfem";
 	grid-gap: 2rem;
 	background-image: url(../imagenes/wallp.jpg);
 	background-position: center;
@@ -36,8 +35,7 @@
 		grid-template-areas:
 		"nav nav" 
 		"futmas futtot"
-		"futfem futtot"
-		"footer footer" ;
+		"futfem futtot";
 		grid-gap: 2rem;
 	    background-image: url(../imagenes/wallp.jpg);
 	    background-position: center;
@@ -63,6 +61,17 @@
 	justify-content: space-evenly;	
 }
 
+.navbar-brand img{
+	display: inline-block;
+	height: 80px;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+/*
 .logoNav img{
 	display: inline-block;
 	height: 80px;
@@ -72,6 +81,7 @@
 	cursor: pointer;
 	opacity: 0.7;
 }
+*/
 
 #header ul.navegador{
 	display: flex;
