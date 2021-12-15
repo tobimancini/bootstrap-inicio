@@ -223,3 +223,52 @@ falla porque tarda en ponerse el fondo y borde */
 	animation-duration: 0.85s;
 	animation-delay: 0.2s;
 }
+
+.mainContent {
+	background-image: url(../imagenes/wallp.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	min-height: 950px;
+	width: auto;
+	background-repeat: no-repeat;
+}
+
+.formInscripcion {
+	width: 100%;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	color: #c5a25b;
+	padding: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.tituloInicial {
+	font-size: 35px;
+	color: #c5a25b;
+	padding: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	height: auto;
+	width: 100%;
+	padding-left: 35%;
+	padding-top: 60px;
+}
+
+
+
+.subtituloInicial {
+	font-size: 20px;
+	color: #c5a25b;
+	padding: 10px;
+	width: 1500px;
+	font-family: 'Ubuntu', sans-serif;
+	padding-left: 15%;
+}
+
+.mb-3 {
+	padding: 10px;
+	width: 400px;
+	justify-content: center;
+	align-items: center;
+}
