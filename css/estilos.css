@@ -55,7 +55,7 @@
 	top: 0 !important;
 	background-color: #000 !important;
 	width: 100% !important;
-	height: 80px !important;
+	height: 90px !important;
 	flex-direction: row !important;
 	justify-content: space-evenly !important;
 }
@@ -74,14 +74,16 @@
 }
 */
 
+.container-fluid.navbar-brand {
+	width: 350px;
+	height: 90px;
+}
+
 .navbar-brand img{
-	display: inline-block;
-	height: 80px;
-	align-items: center;
-	justify-content: center;
-	padding: 8px;
-	cursor: pointer;
-	opacity: 0.7;
+	display: flex;
+	height: 75px !important;
+	align-items: center !important;
+	justify-content: center !important;	
 }
 
 /*
@@ -99,7 +101,8 @@
 .navbar-nav{
 	width: 100% !important;
 	flex-wrap: wrap !important;
-	justify-content: center !important;
+	justify-content: space-evenly !important;
+	align-items: center !important;
 }
 
 /*
@@ -115,11 +118,52 @@
 }
 */
 
+.nav-item {
+	margin: 20px 10px !important;
+}
+
+/*
 #header .navegador li{
 	display: inline-block;
 	margin: 20px 10px;
 }
+*/
 
+.nav-link {
+	font-size: 28px !important;	
+	text-decoration: none !important;
+	font-family: 'Aleo', serif !important;
+	color: #c5a25b !important;
+	padding: 5px !important;
+	border-radius: 2px !important;
+	transition: all 0.25s ease-in-out !important;
+}
+
+.nav-link:hover{
+	background-color: #c5a25b !important;
+	color: #000 !important;
+}
+
+
+.nav-link.active{
+	color: #ccc !important;
+	font-size: 33px !important;
+}
+
+
+/* quiero que cuando se despliegue el nav,
+tenga fondo negro y borde dorado, pero tiene alguna
+falla porque tarda en ponerse el fondo y borde */
+.show {
+	background-color: black !important;
+    border: 3px solid #c5a25b95 !important;
+}
+
+.navbar-toggler {
+	border: 2px solid #c5a25b !important;
+}
+
+/*
 #header .navegador a{
 	font-size: 28px;	
 	text-decoration: none;
@@ -129,6 +173,7 @@
 	border-radius: 2px;
 	transition: all 0.25s ease-in-out;
 }
+*/
 
 #header a:hover {
 	background-color: #c5a25b ;
